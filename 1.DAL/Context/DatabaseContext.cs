@@ -38,7 +38,7 @@ namespace _1.DAL.Context
             //    ; User ID = Hieupdph40428@gmail.com; Password = 123
             if (!optionsBuilder.IsConfigured)
             {
-                // Lấy code về muốn kết nối database thì phải sửa lại dòng này
+                // Mọi người dùng Clone using the web URL để mở file nhé nếu tải xuống theo tệp zip thì phải bỏ chặn ở Windows Explorer chọn .resx rồi chuột trái ấn bỏ chặn 
                 optionsBuilder.UseSqlServer("Server=.\\SQLEXPRESS;Database=da1000;Trusted_Connection=True;TrustServerCertificate=True;");
             }
         }
